@@ -1,0 +1,25 @@
+{
+  "name": "felisha-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run" : "bundle exec jekyll serve",
+    "deploy" : "gulp deploy"
+  },
+  "babel": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnumthetyrant1/js-resume.git"
+  },
+  "author": "Max-Andre Zils <zilsmc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnumthetyrant1/js-resume/issues"
+  },
+  "homepage": "https://github.com/magnumthetyrant1/js-resume#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-surge": "^0.1.0"
+  }
+}
